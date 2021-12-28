@@ -1,0 +1,34 @@
+{
+  "name": "e-commerce-management-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "devStart": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thangnv-0703/E-commerce-Management-Project.git"
+  },
+  "author": "Team 3",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thangnv-0703/E-commerce-Management-Project/issues"
+  },
+  "homepage": "https://github.com/thangnv-0703/E-commerce-Management-Project#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "axios": "^0.24.0",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.1",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^10.0.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.2",
+    "express-session": "^1.17.2",
+    "mysql2": "^2.3.3",
+    "passport": "^0.5.2"
+  }
+}
