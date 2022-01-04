@@ -9,6 +9,7 @@
             </colgroup>
             <% for(let i = 0; i < rows.length; i++) { %> 
             <tr>
+
                 <td>
                     <img src="<%= rows[i].thumbnail_photo %> ">
                 </td>
@@ -22,6 +23,7 @@
                 <td class="quantity" style="text-align:center;"><%= rows[i].Quantity %></td>
                 
                 <td class="product-price">$<%= rows[i].Price %>.00</td>
+
             </tr>
             <% } %> 
         </table>
@@ -50,4 +52,5 @@
         <div class="sub-title"style="text-align: left; width:49%; display: inline-block;">Total</div>
         <div class="price" style="width:50%;display:inline-block;font-size:25px;">$<span id="total"></span></div>
     </div>
+    
 </div>
